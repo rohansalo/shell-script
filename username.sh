@@ -9,3 +9,9 @@ then
     echo -e "$R Error::please run this script with root access $N"
     exit 1
 fi
+
+#111
+for i in $@
+do 
+   yum install $i -y
+done
