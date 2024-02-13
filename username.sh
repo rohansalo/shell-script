@@ -24,6 +24,7 @@ VALIDATE(){
        exit 1
     else  
         echo -e "Installing $2...$G Success $N"
+    fi
 
 }
 
@@ -39,5 +40,4 @@ do
    else 
        echo -e "$Y $i is already installed $N"
    fi
-
 done
